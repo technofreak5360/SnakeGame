@@ -1,0 +1,35 @@
+<html>
+    <head>
+        <title>Snake Game</title>
+        <style>
+            canvas{
+                display: block;
+                margin: 0 auto;
+            }
+            button
+            {
+              margin-left: 355px;
+              height:50px;
+              width: 120px;
+              border-radius: 25px;
+              border-color: green;
+              color:green;
+              font-size: 20px;
+              background: transparent;
+              font-weight: bold;
+            }
+        </style>
+    </head>
+    <body>
+    <canvas id="snake" width="608" height="608"></canvas>
+    <br>
+    <button onclick="restart();">Restart</button>
+    <script src="snake.js"></script>
+    <script type="text/javascript">
+      function restart()
+      {
+      window.open('snake.html','_self');
+      }
+    </script>
+  </body>
+</html>
